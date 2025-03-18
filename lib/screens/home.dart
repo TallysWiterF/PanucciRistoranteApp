@@ -12,7 +12,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  int _currentPage = 0;
+  int _currentPage = 1;
   @override
   Widget build(BuildContext context) {
     final List<Widget> pages = [const Highlights(), const FoodMenu()];
