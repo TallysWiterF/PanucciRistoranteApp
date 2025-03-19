@@ -20,6 +20,8 @@ class DrinkItem extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Image(
+            height: 90,
+            width: double.infinity,
             image: AssetImage(imageURI),
             fit: BoxFit.cover,
           ),
