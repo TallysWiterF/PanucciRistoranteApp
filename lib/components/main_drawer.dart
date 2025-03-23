@@ -57,18 +57,20 @@ class MainDrawer extends StatelessWidget {
               textColor: AppColors.drawerFontColor,
               onTap: () {},
               title: const Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: <Widget>[
-                    Icon(Icons.fact_check_outlined),
-                    Expanded(
-                        child: Padding(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Icon(Icons.fact_check_outlined),
+                  Expanded(
+                    child: Padding(
                       padding: EdgeInsets.symmetric(horizontal: 8.0),
                       child: Text(
                         "Todos os pedidos",
                         style: TextStyle(fontWeight: FontWeight.w700),
                       ),
-                    )),
-                  ]),
+                    ),
+                  ),
+                ],
+              ),
             )
           ],
         ));
